@@ -1,6 +1,7 @@
 import { FaIndustry, FaLightbulb, FaCog, FaChartLine } from "react-icons/fa";
 
-import projectImage from "../../assets/images/Case-study.jpg";
+import projectImage from "../../assets/images/Case-Study.jpg";
+
 const CaseStudy = () => {
   return (
     <section className="py-24 bg-slate-50">

@@ -1,4 +1,4 @@
-import panelImage from "../../assets/images/Control-panel.webp";
+import panelImage from "../../assets/images/panel.webp";
 import {
   FaBolt,
   FaPlug,

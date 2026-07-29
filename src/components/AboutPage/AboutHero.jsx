@@ -1,71 +1,5 @@
-// import { Link } from "react-router-dom";
-
-// import banner from "../../assets/images/about-banner.png";
-
-// const AboutHero = () => {
-//   return (
-//     <section
-//       className="relative h-[55vh] flex items-center justify-center bg-cover bg-center"
-//       style={{
-//         backgroundImage: `url(${banner})`,
-//       }}
-//     >
-//       {/* Overlay */}
-
-//       <div className="absolute inset-0 bg-[#081C33]/75"></div>
-
-//       {/* Content */}
-
-//       <div className="relative z-10 text-center px-6 max-w-4xl">
-
-//         <span className="uppercase tracking-[6px] text-orange-400 font-semibold">
-//           About Mech Volt Technologies
-//         </span>
-
-//         <h1 className="text-5xl lg:text-6xl font-bold text-white mt-5">
-//           Engineering Innovation
-//           <br />
-//           Driving Industrial Excellence
-//         </h1>
-
-//         <p className="text-slate-200 mt-6 text-lg leading-8 max-w-3xl mx-auto">
-//           We deliver cutting-edge industrial automation,
-//           SPM machine design, PLC programming,
-//           electrical control panel solutions and smart
-//           manufacturing systems that improve productivity,
-//           efficiency and operational reliability.
-//         </p>
-
-//         {/* Breadcrumb */}
-
-//         <div className="mt-10 flex justify-center items-center gap-3 text-white">
-
-//           <Link
-//             to="/"
-//             className="hover:text-orange-400 duration-300"
-//           >
-//             Home
-//           </Link>
-
-//           <span>/</span>
-
-//           <span className="text-orange-400">
-//             About Us
-//           </span>
-
-//         </div>
-
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default AboutHero;
-
-
-
 import { Link } from "react-router-dom";
-import banner from "../../assets/images/about-banner.png";
+import banner from "../../assets/images/about-banner.webp";
 
 const AboutHero = () => {
   return (
@@ -101,29 +35,22 @@ const AboutHero = () => {
           {/* Description */}
 
           <p className="mt-8 text-base sm:text-lg lg:text-xl leading-8 text-slate-200 max-w-3xl mx-auto">
-            We deliver cutting-edge industrial automation,
-            PLC programming, SPM machine design,
-            electrical control panel solutions and smart
-            manufacturing systems that improve
-            productivity, efficiency and operational
-            reliability across industries.
+            We deliver cutting-edge industrial automation, PLC programming, SPM
+            machine design, electrical control panel solutions and smart
+            manufacturing systems that improve productivity, efficiency and
+            operational reliability across industries.
           </p>
 
           {/* Breadcrumb */}
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3 text-sm sm:text-base text-white">
-            <Link
-              to="/"
-              className="transition hover:text-orange-400"
-            >
+            <Link to="/" className="transition hover:text-orange-400">
               Home
             </Link>
 
             <span className="text-slate-400">/</span>
 
-            <span className="text-orange-400 font-medium">
-              About Us
-            </span>
+            <span className="text-orange-400 font-medium">About Us</span>
           </div>
         </div>
       </div>

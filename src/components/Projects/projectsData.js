@@ -1,38 +1,5 @@
-// import project1 from "../../assets/images/project1.jpg";
-// import project2 from "../../assets/images/project2.jpeg";
-// import project3 from "../../assets/images/project3.avif";
-
-// export const projects = [
-//   {
-//     image: project1,
-//     category: "Industrial Automation",
-//     title: "PLC Based Conveyor Automation System",
-//     description:
-//       "Complete PLC, HMI and VFD based conveyor automation for a manufacturing plant.",
-//   },
-
-//   {
-//     image: project2,
-//     category: "SPM Machine",
-//     title: "Custom Special Purpose Machine",
-//     description:
-//       "Designed and manufactured an automated SPM machine to improve production efficiency.",
-//   },
-
-//   {
-//     image: project3,
-//     category: "Control Panel",
-//     title: "Industrial Control Panel Integration",
-//     description:
-//       "Electrical panel design, wiring, testing and onsite commissioning.",
-//   },
-// ];
-
-
-
-
-import project1 from "../../assets/images/project1.jpg";
-import project2 from "../../assets/images/project2.jpeg";
+import project1 from "../../assets/images/project1.webp";
+import project2 from "../../assets/images/project2.webp";
 import project3 from "../../assets/images/project3.avif";
 
 export const projects = [
@@ -66,12 +33,7 @@ export const projects = [
     solution:
       "Implemented a PLC controlled conveyor system with HMI monitoring and VFD speed control.",
 
-    technologies: [
-      "Siemens PLC",
-      "WinCC HMI",
-      "ABB VFD",
-      "Omron Sensors",
-    ],
+    technologies: ["Siemens PLC", "WinCC HMI", "ABB VFD", "Omron Sensors"],
 
     gallery: [project1, project1, project1],
 
@@ -92,8 +54,7 @@ export const projects = [
 
     title: "Custom Special Purpose Machine",
 
-    shortDescription:
-      "Designed and manufactured an automated SPM machine.",
+    shortDescription: "Designed and manufactured an automated SPM machine.",
 
     overview:
       "Designed a customized Special Purpose Machine to automate repetitive manufacturing processes.",
@@ -106,26 +67,15 @@ export const projects = [
 
     duration: "5 Months",
 
-    challenge:
-      "High production time and inconsistent quality.",
+    challenge: "High production time and inconsistent quality.",
 
-    solution:
-      "Developed a custom SPM with automated feeding and inspection.",
+    solution: "Developed a custom SPM with automated feeding and inspection.",
 
-    technologies: [
-      "SolidWorks",
-      "PLC",
-      "Servo Motors",
-      "Pneumatics",
-    ],
+    technologies: ["SolidWorks", "PLC", "Servo Motors", "Pneumatics"],
 
     gallery: [project2, project2, project2],
 
-    results: [
-      "40% Faster Production",
-      "Reduced Labour",
-      "Better Accuracy",
-    ],
+    results: ["40% Faster Production", "Reduced Labour", "Better Accuracy"],
   },
 
   {
@@ -152,8 +102,7 @@ export const projects = [
 
     duration: "2 Months",
 
-    challenge:
-      "Old electrical panels caused frequent downtime.",
+    challenge: "Old electrical panels caused frequent downtime.",
 
     solution:
       "Installed new control panels with improved safety and reliability.",
@@ -167,10 +116,6 @@ export const projects = [
 
     gallery: [project3, project3, project3],
 
-    results: [
-      "Zero Downtime",
-      "Improved Safety",
-      "Easy Maintenance",
-    ],
+    results: ["Zero Downtime", "Improved Safety", "Easy Maintenance"],
   },
 ];

@@ -2,126 +2,75 @@ import { heroData } from "./heroData";
 
 const HeroStats = () => {
   return (
-    <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-5">
+    <div className="mt-14 grid grid-cols-2 gap-4 lg:grid-cols-4">
       {heroData.stats.map((item) => (
         <div
           key={item.title}
           className="
             group
 
-            relative
-            overflow-hidden
+            rounded-2xl
 
-            rounded-3xl
+            border border-white/10
 
-            border
-            border-white/10
+            bg-white/4
 
-            bg-white/5
-            backdrop-blur-md
+            backdrop-blur-xl
 
-            p-6
-
-            text-center
+            px-5
+            py-4
 
             transition-all
-            duration-500
+            duration-300
 
-            hover:-translate-y-2
-            hover:border-orange-500/40
-            hover:bg-white/10
-            hover:shadow-[0_20px_50px_rgba(0,0,0,0.35)]
+            hover:border-cyan-400/30
+            hover:bg-white/8
+            hover:-translate-y-1
           "
         >
-          {/* Top Accent */}
-
-          <div
-            className="
-              absolute
-              left-0
-              top-0
-
-              h-1
-              w-0
-
-              bg-orange-500
-
-              transition-all
-              duration-500
-
-              group-hover:w-full
-            "
-          />
-
           {/* Number */}
 
-          <h2
-            className="
-              text-3xl
-              lg:text-4xl
+          <div className="flex items-end gap-1">
+            <h3
+              className="
+                text-2xl
+                lg:text-3xl
 
-              font-extrabold
+                font-bold
 
-              text-white
+                text-white
 
-              transition
+                group-hover:text-cyan-300
 
-              group-hover:text-orange-400
-            "
-          >
-            {item.number}
-          </h2>
+                transition
+              "
+            >
+              {item.number}
+            </h3>
+          </div>
 
-          {/* Divider */}
+          {/* Small Divider */}
 
-          <div className="mx-auto my-4 h-px w-10 bg-white/20 transition-all duration-300 group-hover:w-16 group-hover:bg-orange-500"></div>
+          <div className="mt-2 mb-3 h-0.5 w-8 rounded-full bg-cyan-400" />
 
           {/* Title */}
 
           <p
             className="
-              text-sm
-              lg:text-base
+              text-xs
+              lg:text-sm
 
-              font-medium
+              leading-5
 
-              tracking-wide
+              text-slate-400
 
-              text-slate-300
+              group-hover:text-slate-200
 
               transition
-
-              group-hover:text-white
             "
           >
             {item.title}
           </p>
-
-          {/* Background Glow */}
-
-          <div
-            className="
-              absolute
-              -bottom-10
-              -right-10
-
-              h-24
-              w-24
-
-              rounded-full
-
-              bg-orange-500/10
-
-              blur-2xl
-
-              opacity-0
-
-              transition-all
-              duration-500
-
-              group-hover:opacity-100
-            "
-          />
         </div>
       ))}
     </div>

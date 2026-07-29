@@ -74,7 +74,7 @@
 // export default Hero;
 
 import { FaArrowRight } from "react-icons/fa";
-import heroImage from "../../assets/images/projects-hero.jpg";
+import heroImage from "../../assets/images/projects-hero.webp";
 
 const Hero = () => {
   return (

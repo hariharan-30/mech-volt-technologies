@@ -1,9 +1,9 @@
-import tvs from "../../assets/images/tvs.jpeg";
-import hyundai from "../../assets/images/hyundai.jpeg";
-import bosch from "../../assets/images/bosch.png";
-import lt from "../../assets/images/lt.png";
-import caterpillar from "../../assets/images/caterpillar.jpg";
-import ashok from "../../assets/images/ashok-leyland.png";
+import tvs from "../../assets/images/tvs.webp";
+import hyundai from "../../assets/images/hyundai.webp";
+import bosch from "../../assets/images/bosch.webp";
+import lt from "../../assets/images/lt.webp";
+import caterpillar from "../../assets/images/caterpillar.webp";
+import ashok from "../../assets/images/ashok-leyland.webp";
 
 export const clients = [
   { id: 1, logo: tvs, name: "TVS" },

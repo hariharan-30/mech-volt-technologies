@@ -1,4 +1,4 @@
-import heroImg from "../../assets/images/hero-machine.jpg";
+import heroImg from "../../assets/images/hero-machine.webp";
 
 export const heroData = {
   subtitle: "SMART INDUSTRIAL AUTOMATION",
@@ -13,19 +13,19 @@ export const heroData = {
   stats: [
     {
       number: "250+",
-      title: "Projects",
+      title: "Completed Projects",
     },
     {
       number: "150+",
-      title: "Clients",
+      title: "Happy Clients",
     },
     {
       number: "20+",
-      title: "Experts",
+      title: "Automation Experts",
     },
     {
       number: "8+",
-      title: "Years",
+      title: "Years Experience",
     },
   ],
 };

@@ -4,52 +4,123 @@ import HeroImage from "./HeroImage";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-[#071A2E]">
-      {/* Background Pattern */}
+    <section className="relative overflow-hidden bg-[#0B1120]">
+      {/* Grid Pattern */}
 
-      <div className="absolute inset-0 opacity-[0.05] bg-[radial-gradient(circle,#ffffff_1px,transparent_1px)] bg-size-[35px_35px]" />
+      <div
+        className="
+          absolute
+          inset-0
+          opacity-[0.04]
+          bg-[radial-gradient(circle,#ffffff_1px,transparent_1px)]
+          bg-size-[38px_38px]
+        "
+      />
 
-      {/* Left Glow */}
+      {/* Top Left Glow */}
 
-      <div className="absolute -top-40 -left-40 h-105 w-105 rounded-full bg-[#005BAC]/20 blur-3xl" />
+      <div
+        className="
+          absolute
+          -top-40
+          -left-40
 
-      {/* Right Glow */}
+          h-125
+          w-125
 
-      <div className="absolute -bottom-40 -right-40 h-105 w-105 rounded-full bg-orange-500/10 blur-3xl" />
+          rounded-full
 
-      {/* Content */}
+          bg-cyan-400/10
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+          blur-[140px]
+        "
+      />
+
+      {/* Bottom Right Glow */}
+
+      <div
+        className="
+          absolute
+          bottom-0
+          right-0
+
+          h-105
+          w-105
+
+          rounded-full
+
+          bg-[#005BAC]/15
+
+          blur-[130px]
+        "
+      />
+
+      {/* Orange Accent */}
+
+      <div
+        className="
+          absolute
+          top-40
+          right-32
+
+          h-40
+          w-40
+
+          rounded-full
+
+          bg-orange-500/10
+
+          blur-[90px]
+        "
+      />
+
+      {/* Main */}
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         <div
           className="
-            min-h-screen
-            pt-32
-            sm:pt-36
-            lg:pt-40
-            pb-16
+            min-h-svh
 
             grid
-            grid-cols-1
-            xl:grid-cols-2
 
             items-center
+
             gap-16
-            xl:gap-20
+
+            lg:grid-cols-2
+
+            pt-32
+            lg:pt-36
+
+            pb-20
           "
         >
-          {/* Left */}
+          <FadeUp>
+            <HeroContent />
+          </FadeUp>
 
-          <HeroContent />
-
-          {/* Right */}
-
-          <HeroImage />
+          <FadeUp>
+            <HeroImage />
+          </FadeUp>
         </div>
       </div>
 
-      {/* Bottom Fade */}
+      {/* Bottom Gradient */}
 
-      <div className="absolute bottom-0 left-0 h-24 w-full bg-linear-to-t from-[#071A2E] to-transparent"></div>
+      <div
+        className="
+          absolute
+          bottom-0
+          left-0
+
+          h-32
+          w-full
+
+          bg-linear-to-t
+          from-[#0B1120]
+          to-transparent
+        "
+      />
     </section>
   );
 };

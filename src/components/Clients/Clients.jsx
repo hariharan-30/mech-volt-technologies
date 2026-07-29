@@ -1,152 +1,56 @@
-// import { clients } from "./clientData";
-
-// const Clients = () => {
-//   return (
-//     <section className="bg-white py-20">
-//       <div className="max-w-7xl mx-auto px-6">
-//         <div className="text-center mb-14">
-//           <span className="uppercase tracking-[4px] text-orange-500 font-semibold text-sm">
-//             Trusted By
-//           </span>
-
-//           <h2 className="text-4xl font-bold text-slate-900 mt-4">
-//             Industries We Work With
-//           </h2>
-
-//           <p className="text-slate-500 mt-4 max-w-2xl mx-auto">
-//             Delivering automation and engineering solutions to leading
-//             manufacturing industries across multiple sectors.
-//           </p>
-//         </div>
-
-//         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-//           {clients.map((client) => (
-//             <div
-//               key={client.id}
-//               className="bg-slate-50 border rounded-xl p-6 flex items-center justify-center hover:shadow-xl hover:-translate-y-2 duration-300"
-//             >
-//               <img
-//                 src={client.logo}
-//                 alt={client.name}
-//                 className="h-12 object-contain grayscale hover:grayscale-0 transition duration-300"
-//               />
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Clients;
-
-
-
 import { clients } from "./clientData";
 
 const Clients = () => {
-  return (
-    <section className="bg-white py-16 md:py-20 xl:py-28">
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-        {/* Heading */}
+  const logos = [...clients, ...clients];
 
-        <div className="max-w-3xl mx-auto text-center">
-          <span className="uppercase tracking-[4px] text-orange-500 font-semibold text-sm">
+  return (
+    <section className="relative overflow-hidden bg-white py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center max-w-3xl mx-auto">
+          <span className="uppercase tracking-[4px] text-[#0A7EA4] font-semibold text-sm">
             Trusted By
           </span>
 
-          <h2
-            className="
-              mt-4
-
-              text-3xl
-              sm:text-4xl
-              xl:text-5xl
-
-              font-bold
-
-              text-slate-900
-            "
-          >
-            Industries We Work With
+          <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-slate-900">
+            Trusted By Industry Leaders
           </h2>
 
-          <p
-            className="
-              mt-6
-
-              text-base
-              md:text-lg
-
-              leading-8
-
-              text-slate-600
-            "
-          >
-            Delivering automation and engineering solutions to leading
-            manufacturing industries across multiple sectors.
+          <p className="mt-6 text-lg text-slate-600 leading-8">
+            Delivering world-class industrial automation and engineering
+            solutions for leading manufacturing companies across India.
           </p>
         </div>
+      </div>
 
-        {/* Clients */}
+      {/* Fade Left */}
+      <div className="pointer-events-none absolute left-0 top-0 h-full w-28 bg-linear-to-r from-white to-transparent z-10" />
 
-        <div
-          className="
-            mt-14
+      {/* Fade Right */}
+      <div className="pointer-events-none absolute right-0 top-0 h-full w-28 bg-linear-to-l from-white to-transparent z-10" />
 
-            grid
+      {/* Marquee */}
 
-            grid-cols-2
-            sm:grid-cols-3
-            xl:grid-cols-6
-
-            gap-5
-            xl:gap-8
-          "
-        >
-          {clients.map((client) => (
+      <div className="group mt-16 overflow-hidden">
+        <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
+          {logos.map((client, index) => (
             <div
-              key={client.id}
-              className="
-                group
-
-                flex
-                items-center
-                justify-center
-
-                rounded-2xl
-
-                border
-                border-slate-200
-
-                bg-slate-50
-
-                p-6
-
-                transition-all
-                duration-300
-
-                hover:-translate-y-2
-                hover:shadow-xl
-                hover:border-orange-500
-              "
+              key={index}
+              className="mx-12 flex h-20 w-40 items-center justify-center"
             >
               <img
                 src={client.logo}
                 alt={client.name}
                 className="
-                  h-10
-                  sm:h-12
-
+                  max-h-12
                   object-contain
-
                   grayscale
-
+                  opacity-70
                   transition-all
                   duration-300
 
-                  group-hover:grayscale-0
-                  group-hover:scale-105
+                  hover:grayscale-0
+                  hover:opacity-100
+                  hover:scale-110
                 "
               />
             </div>

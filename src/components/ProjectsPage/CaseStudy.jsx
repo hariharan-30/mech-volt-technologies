@@ -1,6 +1,6 @@
 import { FaIndustry, FaLightbulb, FaCog, FaChartLine } from "react-icons/fa";
 
-import projectImage from "../../assets/images/Case-Study.jpg";
+import projectImage from "../../assets/images/Case-Study.webp";
 
 const CaseStudy = () => {
   return (

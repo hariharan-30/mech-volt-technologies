@@ -9,21 +9,22 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
 
-        <div className="text-center max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <span className="uppercase tracking-[4px] text-orange-500 font-semibold">
-              Our Services
+            <span className="inline-flex rounded-full bg-[#168AAD]/10 text-[#168AAD] px-5 py-2 text-sm font-semibold tracking-[3px] uppercase">
+              Engineering Services
             </span>
           </FadeUp>
 
-          <h2 className="text-5xl font-bold mt-5 text-slate-900">
-            Innovative Industrial Engineering Solutions
+          <h2 className="mt-6 text-4xl md:text-5xl xl:text-6xl font-extrabold text-slate-900 leading-tight">
+            Complete Industrial
+            <span className="block text-[#0B4F6C]">Automation Solutions</span>
           </h2>
 
-          <p className="mt-6 text-lg text-slate-600 leading-8">
-            We provide comprehensive industrial automation, machine design,
-            electrical engineering and turnkey solutions tailored to your
-            manufacturing needs.
+          <p className="mt-6 text-lg leading-8 text-slate-600 max-w-3xl mx-auto">
+            From PLC programming and SPM machine design to turnkey automation
+            projects, we deliver reliable engineering solutions that improve
+            productivity, efficiency and long-term operational performance.
           </p>
         </div>
 

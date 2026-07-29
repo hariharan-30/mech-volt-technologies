@@ -1,4 +1,4 @@
-import spmImage from "../../assets/images/Spm-machine.jpg";
+import spmImage from "../../assets/images/Spm-machine.webp";
 import {
   FaDraftingCompass,
   FaCogs,

@@ -1,9 +1,9 @@
 import automationImg from "../../assets/images/automation.avif";
 import plcImg from "../../assets/images/plc.webp";
-import spmImg from "../../assets/images/spm.jpg";
-import panelImg from "../../assets/images/panel.jpg";
-import turnkeyImg from "../../assets/images/pharma.jpg";
-import maintenanceImg from "../../assets/images/manufacturing.jpg";
+import spmImg from "../../assets/images/spm.webp";
+import panelImg from "../../assets/images/panel.webp";
+import turnkeyImg from "../../assets/images/pharma.webp";
+import maintenanceImg from "../../assets/images/manufacturing.webp";
 
 import {
   FaRobot,

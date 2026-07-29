@@ -1,11 +1,14 @@
+import { FaBolt, FaCog, FaAward, FaCheckCircle } from "react-icons/fa";
+
+import GlassCard from "../ui/GlassCard";
 import { heroData } from "./heroData";
 
 const HeroImage = () => {
   return (
-    <div className="relative flex items-center justify-center mt-12 xl:mt-0">
+    <div className="relative flex items-center justify-center mt-16 lg:mt-0">
       {/* Background Glow */}
 
-      <div className="absolute h-105 w-105 rounded-full bg-[#005BAC]/15 blur-3xl"></div>
+      <div className="absolute h-155 w-155 rounded-full bg-cyan-400/10 blur-[120px]" />
 
       {/* Main Image */}
 
@@ -17,16 +20,17 @@ const HeroImage = () => {
           z-10
 
           w-full
-          max-w-[320px]
-          sm:max-w-105
+
+          max-w-85
+          sm:max-w-107.5
           lg:max-w-130
           xl:max-w-155
 
           object-contain
 
-          drop-shadow-[0_35px_60px_rgba(0,0,0,0.45)]
+          drop-shadow-[0_45px_80px_rgba(0,0,0,.45)]
 
-          transition-transform
+          transition-all
           duration-500
 
           hover:scale-[1.02]
@@ -35,72 +39,120 @@ const HeroImage = () => {
 
       {/* PLC Card */}
 
-      <div
+      <GlassCard
         className="
           absolute
-          top-6
-          left-2
+
+          top-4
+          left-0
 
           hidden
-          md:block
+          lg:block
 
-          rounded-2xl
-          border
-          border-white/20
+          p-5
 
-          bg-white/95
-
-          px-6
-          py-5
-
-          shadow-2xl
-          backdrop-blur-md
+          w-56
         "
       >
-        <h4 className="text-xl font-bold text-[#005BAC]">PLC</h4>
+        <div className="flex items-center gap-3">
+          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500">
+            <FaBolt className="text-white text-lg" />
+          </div>
 
-        <p className="mt-1 text-sm text-slate-500">Programming</p>
-      </div>
+          <div>
+            <h4 className="font-bold text-white">PLC Programming</h4>
+
+            <p className="text-sm text-slate-300">Siemens • Mitsubishi</p>
+          </div>
+        </div>
+      </GlassCard>
+
+      {/* Experience Card */}
+
+      <GlassCard
+        className="
+          absolute
+
+          bottom-16
+          left-6
+
+          hidden
+          lg:block
+
+          p-6
+
+          text-center
+
+          w-40
+        "
+      >
+        <FaAward className="mx-auto text-3xl text-orange-400" />
+
+        <h3 className="mt-3 text-4xl font-black text-white">8+</h3>
+
+        <p className="mt-1 text-sm text-slate-300">Years Experience</p>
+      </GlassCard>
 
       {/* SPM Card */}
 
-      <div
+      <GlassCard
         className="
           absolute
-          bottom-6
-          right-2
+
+          right-0
+          bottom-8
 
           hidden
-          md:block
+          lg:block
 
-          rounded-2xl
+          w-60
 
-          bg-orange-500
-
-          px-6
-          py-5
-
-          text-white
-
-          shadow-2xl
+          p-5
         "
       >
-        <h4 className="text-xl font-bold">SPM</h4>
+        <div className="flex items-center gap-3">
+          <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500">
+            <FaCog className="text-white text-lg" />
+          </div>
 
-        <p className="mt-1 text-sm">Machine Design</p>
-      </div>
+          <div>
+            <h4 className="font-bold text-white">SPM Machine Design</h4>
 
-      {/* Automation Badge */}
+            <p className="text-sm text-slate-300">Custom Industrial Machines</p>
+          </div>
+        </div>
+
+        <div className="mt-4 space-y-2">
+          <div className="flex items-center gap-2 text-sm text-slate-300">
+            <FaCheckCircle className="text-cyan-400" />
+            Conveyor Systems
+          </div>
+
+          <div className="flex items-center gap-2 text-sm text-slate-300">
+            <FaCheckCircle className="text-cyan-400" />
+            Robotic Automation
+          </div>
+
+          <div className="flex items-center gap-2 text-sm text-slate-300">
+            <FaCheckCircle className="text-cyan-400" />
+            Turnkey Integration
+          </div>
+        </div>
+      </GlassCard>
+
+      {/* Bottom Badge */}
 
       <div
         className="
           absolute
-          -bottom-6
+
+          -bottom-8
           left-1/2
-          -translate-x-1/2
 
           hidden
           lg:flex
+
+          -translate-x-1/2
 
           items-center
           gap-3
@@ -108,23 +160,23 @@ const HeroImage = () => {
           rounded-full
 
           border
-          border-white/10
+          border-cyan-400/20
 
-          bg-[#071A2E]/90
+          bg-white/5
+
+          backdrop-blur-xl
 
           px-6
           py-3
 
-          text-white
-
-          backdrop-blur-md
-
           shadow-xl
         "
       >
-        <span className="h-3 w-3 rounded-full bg-green-400 animate-pulse"></span>
+        <span className="h-3 w-3 rounded-full bg-green-400 animate-pulse" />
 
-        <span className="text-sm font-medium">Smart Industrial Automation</span>
+        <span className="font-medium text-white">
+          Smart Industrial Automation Solutions
+        </span>
       </div>
     </div>
   );

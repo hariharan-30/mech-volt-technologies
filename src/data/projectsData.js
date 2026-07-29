@@ -1,9 +1,9 @@
-import automotive from "../assets/images/automotive.jpg";
-import conveyor from "../assets/images/conveyor.jpg";
-import spm from "../assets/images/spm.jpg";
+import automotive from "../assets/images/automotive.webp";
+import conveyor from "../assets/images/conveyor.webp";
+import spm from "../assets/images/spm.webp";
 import plc from "../assets/images/plc.webp";
-import panel from "../assets/images/panel.jpg";
-import robot from "../assets/images/robot.jpeg";
+import panel from "../assets/images/panel.webp";
+import robot from "../assets/images/robot.webp";
 
 export const projects = [
   {

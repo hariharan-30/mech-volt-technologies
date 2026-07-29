@@ -1,100 +1,112 @@
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import HeroStats from "./HeroStats";
 import { heroData } from "./heroData";
+
+import PrimaryButton from "../ui/PrimaryButton";
+import SecondaryButton from "../ui/SecondaryButton";
+import SectionBadge from "../ui/SectionBadge";
 
 const HeroContent = () => {
   return (
     <div className="max-w-2xl">
-      {/* Subtitle */}
+      {/* Badge */}
 
-      <span className="inline-flex items-center rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-xs font-semibold uppercase tracking-[4px] text-orange-400 sm:text-sm">
-        {heroData.subtitle}
-      </span>
+      <SectionBadge>{heroData.subtitle}</SectionBadge>
 
       {/* Heading */}
 
-      <h1 className="mt-8 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+      <h1
+        className="
+          mt-8
+
+          text-5xl
+          sm:text-6xl
+          lg:text-7xl
+
+          font-black
+
+          tracking-[-2px]
+
+          leading-[1.05]
+
+          text-white
+        "
+      >
         Engineering Smart
-        <span className="block text-orange-400">Automation Solutions</span>
-        For Modern Industries
+        <span
+          className="
+            block
+
+            bg-linear-to-r
+
+            from-cyan-300
+            via-sky-400
+            to-[#005BAC]
+
+            bg-clip-text
+
+            text-transparent
+          "
+        >
+          Automation Solutions
+        </span>
+        <span className="block">For Modern Industries</span>
       </h1>
 
       {/* Description */}
 
-      <p className="mt-8 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
+      <p
+        className="
+          mt-8
+
+          max-w-xl
+
+          text-lg
+
+          leading-9
+
+          text-slate-300
+        "
+      >
         {heroData.description}
       </p>
 
+      {/* Features */}
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>Industrial Automation</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>PLC Programming</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>SPM Machine Design</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>Turnkey Projects</span>
+        </div>
+      </div>
+
       {/* Buttons */}
 
-      <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-        <Link
-          to="/contact"
-          className="
-            inline-flex
-            items-center
-            justify-center
-            gap-3
-
-            rounded-2xl
-
-            bg-orange-500
-
-            px-8
-            py-4
-
-            font-semibold
-            text-white
-
-            shadow-lg
-
-            transition-all
-            duration-300
-
-            hover:-translate-y-1
-            hover:bg-orange-600
-            hover:shadow-2xl
-          "
-        >
+      <div className="mt-12 flex flex-col gap-5 sm:flex-row">
+        <PrimaryButton to="/contact">
           Get Free Consultation
-          <FaArrowRight className="text-sm" />
-        </Link>
+          <FaArrowRight />
+        </PrimaryButton>
 
-        <Link
-          to="/services"
-          className="
-            inline-flex
-            items-center
-            justify-center
-            gap-3
-
-            rounded-2xl
-
-            border
-            border-white/20
-
-            bg-white/5
-            backdrop-blur-md
-
-            px-8
-            py-4
-
-            font-semibold
-
-            text-white
-
-            transition-all
-            duration-300
-
-            hover:bg-white
-            hover:text-[#071A2E]
-            hover:shadow-xl
-          "
-        >
+        <SecondaryButton to="/services">
           Explore Services
-          <FaArrowRight className="text-sm" />
-        </Link>
+          <FaArrowRight />
+        </SecondaryButton>
       </div>
 
       {/* Stats */}

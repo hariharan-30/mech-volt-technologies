@@ -1,6 +1,6 @@
 import { FaBolt, FaCog, FaAward, FaCheckCircle } from "react-icons/fa";
 
-import GlassCard from "../ui/GlassCard";
+import GlassCard from "../Ui/GlassCard";
 import { heroData } from "./heroData";
 
 const HeroImage = () => {

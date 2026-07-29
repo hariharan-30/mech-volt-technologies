@@ -2,9 +2,9 @@ import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import HeroStats from "./HeroStats";
 import { heroData } from "./heroData";
 
-import PrimaryButton from "../ui/PrimaryButton";
-import SecondaryButton from "../ui/SecondaryButton";
-import SectionBadge from "../ui/SectionBadge";
+import PrimaryButton from "../Ui/PrimaryButton";
+import SecondaryButton from "../Ui/SecondaryButton";
+import SectionBadge from "../Ui/SectionBadge";
 
 const HeroContent = () => {
   return (

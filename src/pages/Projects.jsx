@@ -17,7 +17,7 @@ const Projects = () => {
         keywords="Automation Projects, PLC Projects, SPM Projects"
       />
       <Hero />
-      <Stats />
+      {/* <Stats /> */}
       {/* <FeaturedProjects /> */}
       <ProjectFilter />
       {/* <CaseStudy /> */}

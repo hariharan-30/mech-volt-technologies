@@ -42,7 +42,7 @@ const Hero = () => {
 
           {/* Contact Highlights */}
 
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-5">
+          {/* <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-5">
             <div className="rounded-2xl border border-white/10 bg-white/10 backdrop-blur-md p-6">
               <h3 className="text-3xl font-bold text-orange-400">24/7</h3>
 
@@ -60,7 +60,7 @@ const Hero = () => {
 
               <p className="mt-2 text-slate-200">Service Network</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
+
+
 const ServiceHero = ({ service }) => {
   return (
     <section className="relative overflow-hidden bg-linear-to-br from-[#081C33] via-[#0A2E52] to-[#005BAC] pt-32 pb-20">

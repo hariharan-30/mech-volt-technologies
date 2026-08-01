@@ -32,10 +32,10 @@ const RobotProgramming = () => {
 
         {/* Cards */}
 
-        <div className="grid lg:grid-cols-2 gap-10 mt-20">
-          {/* Programming */}
+        {/* <div className="grid lg:grid-cols-2 gap-10 mt-20"> */}
+        {/* Programming */}
 
-          <div className="rounded-4xl border border-slate-200 bg-white shadow-lg p-10">
+        {/* <div className="rounded-4xl border border-slate-200 bg-white shadow-lg p-10">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-2xl bg-[#12344D] flex items-center justify-center">
                 <FaCode className="text-white text-2xl" />
@@ -62,11 +62,11 @@ const RobotProgramming = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
-          {/* Integration */}
+        {/* Integration */}
 
-          <div className="rounded-4xl border border-slate-200 bg-white shadow-lg p-10">
+        {/* <div className="rounded-4xl border border-slate-200 bg-white shadow-lg p-10">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-2xl bg-[#F59E0B] flex items-center justify-center">
                 <FaNetworkWired className="text-white text-2xl" />
@@ -91,8 +91,8 @@ const RobotProgramming = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
 
         {/* Bottom Feature Strip */}
 

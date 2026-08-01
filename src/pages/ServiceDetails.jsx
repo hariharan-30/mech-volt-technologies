@@ -31,16 +31,16 @@ const ServiceDetails = () => {
 
       <ServiceOverview service={service} />
 
-      <ServiceFeatures service={service} />
+      {/* <ServiceFeatures service={service} /> */}
 
-      <ServiceProcess service={service} />
+      {/* <ServiceProcess service={service} /> */}
 
-      <ServiceBenefits service={service} />
+      {/* <ServiceBenefits service={service} /> */}
 
       <ServiceGallery service={service} />
 
-      <RelatedServices service={service} />
-      <ServiceCTA />
+      {/* <RelatedServices service={service} /> */}
+      {/* <ServiceCTA /> */}
     </>
   );
 };

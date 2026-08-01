@@ -70,7 +70,8 @@ const Footer = () => {
                 className="flex gap-4 text-slate-400 hover:text-orange-500 transition"
               >
                 <FaPhoneAlt className="mt-1 text-orange-500 shrink-0" />
-                +91 8056257501
+                +91 8056257501,
+                +91 95003 39597
               </a>
 
               <a

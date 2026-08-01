@@ -94,7 +94,7 @@ const HeroContent = () => {
 
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
-          <span>All Type of Guns and Services</span>
+          <span>All Type of Paint Guns and Services</span>
         </div>
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
@@ -118,7 +118,7 @@ const HeroContent = () => {
 
       {/* Stats */}
 
-      <HeroStats />
+      {/* <HeroStats /> */}
     </div>
   );
 };

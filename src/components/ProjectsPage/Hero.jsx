@@ -132,7 +132,7 @@ const Hero = () => {
 
           {/* Stats */}
 
-          <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-5">
+          {/* <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-5">
             <div className="rounded-2xl border border-white/10 bg-white/10 backdrop-blur-md p-5 text-center">
               <h3 className="text-3xl font-bold text-orange-400">12+</h3>
 
@@ -156,7 +156,7 @@ const Hero = () => {
 
               <p className="mt-2 text-sm text-slate-200">Support</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

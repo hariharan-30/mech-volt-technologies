@@ -30,19 +30,19 @@ const ProjectDetails = () => {
       />
       <ProjectHero project={project} />
 
-      <ProjectOverview project={project} />
+      {/* <ProjectOverview project={project} /> */}
 
-      <ProjectInfo project={project} />
+      {/* <ProjectInfo project={project} /> */}
 
       <ProjectTechnologies project={project} />
 
-      <ProjectGallery project={project} />
+      {/* <ProjectGallery project={project} /> */}
 
-      <ProjectResults project={project} />
+      {/* <ProjectResults project={project} /> */}
 
       <RelatedProjects currentProject={project} />
 
-      <ProjectCTA />
+      {/* <ProjectCTA /> */}
     </>
   );
 };

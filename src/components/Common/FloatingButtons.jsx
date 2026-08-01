@@ -21,7 +21,7 @@ const FloatingButtons = () => {
     });
   };
 
-  const whatsappNumber = "91XXXXXXXXXX"; // Company WhatsApp number
+  const whatsappNumber = "918056257501"; // Company WhatsApp number
   const whatsappMessage =
     "Hello Mech Volt, I need details about Industrial Automation Solutions.";
 

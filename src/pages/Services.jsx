@@ -21,16 +21,16 @@ const Services = () => {
         keywords="PLC Programming, SCADA, HMI, SPM Machine, Industrial Automation Services"
       />
       <ServicesHero />
-      <Capabilities />
+      {/* <Capabilities /> */}
       <AutomationService />
-      <PLCService />
+      {/* <PLCService /> */}
       <SPMService />
-      <ControlPanel />
-      <Industries />
-      <WorkProcess />
-      <FAQ />
-      <ServiceCTA />
-      <Contact />
+      {/* <ControlPanel /> */}
+      {/* <Industries /> */}
+      {/* <WorkProcess /> */}
+      {/* <FAQ /> */}
+      {/* <ServiceCTA /> */}
+      {/* <Contact /> */}
     </>
   );
 };

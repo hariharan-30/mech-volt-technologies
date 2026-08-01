@@ -24,7 +24,7 @@ const About = () => {
       {/* <WhyPartner /> */}
 
       {/* <CTA /> */}
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 };

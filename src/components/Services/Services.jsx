@@ -22,9 +22,10 @@ const Services = () => {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600 max-w-3xl mx-auto">
-            From PLC programming and SPM machine design to turnkey automation
-            projects, we deliver reliable engineering solutions that improve
-            productivity, efficiency and long-term operational performance.
+            We specialize in Industrial Robotics Programming, PLC Programming,
+            and SPM Machine Design, delivering reliable engineering solutions
+            that improve productivity, efficiency, and long-term operational
+            performance.
           </p>
         </div>
 

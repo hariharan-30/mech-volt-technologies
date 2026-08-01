@@ -6,7 +6,7 @@ const services = [
   "SPM Machine Design & Industrial Automation",
   "Jigs and Fixtures",
   "All Types Of Conveyors",
-  "All Type of Guns and Services",
+  "All Type of Paint Guns and Services",
   "PLC Programming and Control panel Services",
 ];
 

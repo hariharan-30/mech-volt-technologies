@@ -15,11 +15,11 @@ const Contact = () => {
         keywords="Contact Mech Volt, Automation Company Chennai"
       />
       <Hero />
-      <ContactCards />
+      {/* <ContactCards /> */}
       <ContactSection />
       <GoogleMap />
-      <FAQ />
-      <CTA />
+      {/* <FAQ /> */}
+      {/* <CTA /> */}
     </>
   );
 };

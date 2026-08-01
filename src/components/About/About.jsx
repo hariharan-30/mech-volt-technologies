@@ -42,7 +42,7 @@ const About = () => {
 
             {/* Experience Card */}
 
-            <div className="absolute left-6 top-6 rounded-3xl bg-white/95 backdrop-blur-xl px-7 py-6 shadow-2xl border border-slate-200">
+            {/* <div className="absolute left-6 top-6 rounded-3xl bg-white/95 backdrop-blur-xl px-7 py-6 shadow-2xl border border-slate-200">
               <h2 className="text-5xl font-black text-[#0B4F6C]">
                 {aboutData.experience}
               </h2>
@@ -50,27 +50,27 @@ const About = () => {
               <p className="mt-2 text-xs font-semibold uppercase tracking-[4px] text-slate-500">
                 Years Experience
               </p>
-            </div>
+            </div> */}
 
             {/* Projects Card */}
 
-            <div className="absolute -right-5 top-1/2 rounded-3xl bg-[#0B4F6C] px-8 py-7 text-white shadow-2xl">
+            {/* <div className="absolute -right-5 top-1/2 rounded-3xl bg-[#0B4F6C] px-8 py-7 text-white shadow-2xl">
               <FaProjectDiagram className="mb-3 text-3xl text-cyan-300" />
 
-              <h3 className="text-4xl font-black">250+</h3>
+              <h3 className="text-4xl font-black">12+</h3>
 
               <p className="mt-2 text-sm text-slate-200">Automation Projects</p>
-            </div>
+            </div> */}
 
             {/* Clients Card */}
 
-            <div className="absolute bottom-8 left-8 rounded-3xl bg-white px-8 py-6 shadow-2xl border border-slate-200">
+            {/* <div className="absolute bottom-8 left-8 rounded-3xl bg-white px-8 py-6 shadow-2xl border border-slate-200">
               <FaUsers className="mb-3 text-3xl text-orange-500" />
 
-              <h3 className="text-4xl font-black text-slate-900">150+</h3>
+              <h3 className="text-4xl font-black text-slate-900">10+</h3>
 
               <p className="mt-2 text-sm text-slate-500">Happy Clients</p>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT CONTENT ================= */}
@@ -107,7 +107,7 @@ const About = () => {
 
             {/* Mission Vision Quality */}
 
-            <div className="mt-12 grid gap-5 md:grid-cols-3">
+            {/* <div className="mt-12 grid gap-5 md:grid-cols-3">
               <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-xl transition">
                 <FaBullseye className="text-3xl text-orange-500" />
 
@@ -147,11 +147,11 @@ const About = () => {
                   components and professional execution.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* Statistics */}
 
-            <div className="mt-16 grid grid-cols-2 gap-5 lg:grid-cols-4">
+            {/* <div className="mt-16 grid grid-cols-2 gap-5 lg:grid-cols-4">
               <div className="rounded-3xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <FaProjectDiagram className="mx-auto text-3xl text-cyan-600" />
 
@@ -195,7 +195,7 @@ const About = () => {
                   Years
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* CTA */}
 

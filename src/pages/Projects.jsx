@@ -18,12 +18,12 @@ const Projects = () => {
       />
       <Hero />
       <Stats />
-      <FeaturedProjects />
+      {/* <FeaturedProjects /> */}
       <ProjectFilter />
-      <CaseStudy />
-      <Technologies />
-      <Testimonials />
-      <CTA />
+      {/* <CaseStudy /> */}
+      {/* <Technologies /> */}
+      {/* <Testimonials /> */}
+      {/* <CTA /> */}
     </>
   );
 };

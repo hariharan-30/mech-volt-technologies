@@ -76,22 +76,29 @@ const HeroContent = () => {
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
-          <span>Industrial Automation</span>
+          <span>Industrial Robotics Programming Services</span>
+        </div>
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>SPM Machine Design And Industrial Automation</span>
+        </div>
+        <div className="flex items-center gap-3 text-slate-200">
+          <FaCheckCircle className="text-cyan-400" />
+          <span>Jigs and Fixtures</span>
         </div>
 
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
-          <span>PLC Programming</span>
+          <span>All Types Of Conveyors</span>
         </div>
 
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
-          <span>SPM Machine Design</span>
+          <span>All Type of Guns and Services</span>
         </div>
-
         <div className="flex items-center gap-3 text-slate-200">
           <FaCheckCircle className="text-cyan-400" />
-          <span>Turnkey Projects</span>
+          <span>PLC Programming and Control panel Services</span>
         </div>
       </div>
 

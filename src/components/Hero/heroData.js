@@ -12,19 +12,19 @@ export const heroData = {
 
   stats: [
     {
-      number: "250+",
+      number: "12",
       title: "Completed Projects",
     },
     {
-      number: "150+",
+      number: "10+",
       title: "Happy Clients",
     },
     {
-      number: "20+",
+      number: "15+",
       title: "Automation Experts",
     },
     {
-      number: "8+",
+      number: "3+",
       title: "Years Experience",
     },
   ],

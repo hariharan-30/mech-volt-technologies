@@ -29,6 +29,7 @@ import Projects from "../pages/Projects";
 import ProjectDetails from "../pages/ProjectDetails";
 import Contact from "../pages/Contact";
 import ServiceDetails from "../pages/ServiceDetails";
+import Robotics from "../pages/Robotics";
 
 const AppRoutes = () => {
   return (
@@ -42,6 +43,8 @@ const AppRoutes = () => {
 
       <Route path="/projects" element={<Projects />} />
 
+      <Route path="/services/industrial-robotics" element={<Robotics />} />
+
       {/* Dynamic Project Details Route */}
       <Route path="/projects/:slug" element={<ProjectDetails />} />
 
@@ -51,3 +54,6 @@ const AppRoutes = () => {
 };
 
 export default AppRoutes;
+{
+  /* <Route path="/robotics" element={<Robotics />} /> */
+}

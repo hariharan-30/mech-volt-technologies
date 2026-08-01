@@ -17,6 +17,64 @@ import {
 export const services = [
   {
     id: 1,
+    slug: "spm-machine-design",
+
+    icon: FaIndustry,
+
+    image: spmImg,
+
+    category: "Machine Design",
+
+    title: "SPM Machine Design",
+
+    shortDescription:
+      "Custom Special Purpose Machines for industrial automation.",
+
+    description:
+      "Custom Special Purpose Machines designed according to production requirements.",
+
+    overview:
+      "We design and manufacture custom Special Purpose Machines (SPM) to automate repetitive manufacturing operations with high precision and reliability.",
+
+    features: [
+      "Custom Machine Design",
+      "3D Design",
+      "Production Automation",
+      "Servo Systems",
+      "Pneumatics",
+      "Machine Assembly",
+    ],
+
+    process: [
+      "Requirement Collection",
+      "Mechanical Design",
+      "Electrical Design",
+      "Manufacturing",
+      "Assembly",
+      "Trial & Delivery",
+    ],
+
+    benefits: [
+      "Higher Production",
+      "Reduced Labour",
+      "Consistent Quality",
+      "Lower Cost",
+      "Easy Maintenance",
+      "Long Life",
+    ],
+
+    technologies: [
+      "SolidWorks",
+      "AutoCAD",
+      "Servo Motors",
+      "Pneumatics",
+      "PLC",
+    ],
+
+    gallery: [spmImg, spmImg, spmImg],
+  },
+  {
+    id: 2,
     slug: "industrial-automation",
 
     icon: FaRobot,
@@ -76,7 +134,7 @@ export const services = [
   },
 
   {
-    id: 2,
+    id: 3,
     slug: "plc-hmi-scada",
 
     icon: FaMicrochip,
@@ -133,65 +191,6 @@ export const services = [
     ],
 
     gallery: [plcImg, plcImg, plcImg],
-  },
-
-  {
-    id: 3,
-    slug: "spm-machine-design",
-
-    icon: FaIndustry,
-
-    image: spmImg,
-
-    category: "Machine Design",
-
-    title: "SPM Machine Design",
-
-    shortDescription:
-      "Custom Special Purpose Machines for industrial automation.",
-
-    description:
-      "Custom Special Purpose Machines designed according to production requirements.",
-
-    overview:
-      "We design and manufacture custom Special Purpose Machines (SPM) to automate repetitive manufacturing operations with high precision and reliability.",
-
-    features: [
-      "Custom Machine Design",
-      "3D Design",
-      "Production Automation",
-      "Servo Systems",
-      "Pneumatics",
-      "Machine Assembly",
-    ],
-
-    process: [
-      "Requirement Collection",
-      "Mechanical Design",
-      "Electrical Design",
-      "Manufacturing",
-      "Assembly",
-      "Trial & Delivery",
-    ],
-
-    benefits: [
-      "Higher Production",
-      "Reduced Labour",
-      "Consistent Quality",
-      "Lower Cost",
-      "Easy Maintenance",
-      "Long Life",
-    ],
-
-    technologies: [
-      "SolidWorks",
-      "AutoCAD",
-      "Servo Motors",
-      "Pneumatics",
-      "PLC",
-    ],
-
-    gallery: [spmImg, spmImg, spmImg],
   },
 
   {

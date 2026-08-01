@@ -19,11 +19,11 @@ const About = () => {
       <AboutHero />
       <CompanyOverview />
       <Timeline />
-      <CoreValues />
-      <Expertise />
-      <WhyPartner />
+      {/* <CoreValues /> */}
+      {/* <Expertise /> */}
+      {/* <WhyPartner /> */}
 
-      <CTA />
+      {/* <CTA /> */}
       <Contact />
     </>
   );

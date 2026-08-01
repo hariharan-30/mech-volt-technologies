@@ -12,6 +12,7 @@ import CTA from "../components/CTA/CTA";
 import Contact from "../components/Contact/Contact";
 import Stats from "../components/Stats/Stats";
 import SEO from "../components/SEO/SEO";
+import Robotics from "../components/Robotics/Robotics";
 
 const Home = () => {
   return (
@@ -22,17 +23,19 @@ const Home = () => {
         keywords="Industrial Automation, PLC Programming, SCADA, HMI, SPM Machine, Control Panel, Automation Company Chennai"
       />
       <Hero />
-      <Clients />
+      {/* <Clients /> */}
       <About />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
+      <Robotics />
       <Services />
-      <Industries />
+
+      {/* <Industries /> */}
       <Projects />
-      <Stats />
-      <Technologies />
-      <Process />
-      <Testimonials />
-      <CTA />
+      {/* <Stats /> */}
+      {/* <Technologies /> */}
+      {/* <Process /> */}
+      {/* <Testimonials /> */}
+      {/* <CTA /> */}
       <Contact />
     </>
   );

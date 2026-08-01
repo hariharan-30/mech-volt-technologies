@@ -6,28 +6,28 @@ import {
 } from "react-icons/fa";
 
 const ContactInfo = () => {
-  const info = [
-    {
-      icon: FaMapMarkerAlt,
-      title: "Office Address",
-      value: "Chennai, Tamil Nadu, India",
-    },
-    {
-      icon: FaPhoneAlt,
-      title: "Call Us",
-      value: "+91 8056257501",
-    },
-    {
-      icon: FaEnvelope,
-      title: "Email",
-      value: "mechvolttechnologies2024@gmail.com",
-    },
-    {
-      icon: FaClock,
-      title: "Working Hours",
-      value: "Mon - Sat : 9:00 AM - 6:30 PM",
-    },
-  ];
+  // const info = [
+  //   {
+  //     icon: FaMapMarkerAlt,
+  //     title: "Office Address",
+  //     value: "Chennai, Tamil Nadu, India",
+  //   },
+  //   {
+  //     icon: FaPhoneAlt,
+  //     title: "Call Us",
+  //     value: "+91 8056257501",
+  //   },
+  //   {
+  //     icon: FaEnvelope,
+  //     title: "Email",
+  //     value: "mechvolttechnologies2024@gmail.com",
+  //   },
+  //   {
+  //     icon: FaClock,
+  //     title: "Working Hours",
+  //     value: "Mon - Sat : 9:00 AM - 6:30 PM",
+  //   },
+  // ];
 
   return (
     <div>
@@ -45,7 +45,7 @@ const ContactInfo = () => {
         assist you.
       </p>
 
-      <div className="mt-10 space-y-5">
+      {/* <div className="mt-10 space-y-5">
         {info.map((item) => {
           const Icon = item.icon;
 
@@ -70,7 +70,7 @@ const ContactInfo = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };

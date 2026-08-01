@@ -38,7 +38,7 @@ const HeroImage = () => {
       />
 
       {/* PLC Card */}
-
+      {/* 
       <GlassCard
         className="
           absolute
@@ -65,11 +65,11 @@ const HeroImage = () => {
             <p className="text-sm text-slate-300">Siemens • Mitsubishi</p>
           </div>
         </div>
-      </GlassCard>
+      </GlassCard> */}
 
       {/* Experience Card */}
 
-      <GlassCard
+      {/* <GlassCard
         className="
           absolute
 
@@ -91,10 +91,10 @@ const HeroImage = () => {
         <h3 className="mt-3 text-4xl font-black text-white">8+</h3>
 
         <p className="mt-1 text-sm text-slate-300">Years Experience</p>
-      </GlassCard>
+      </GlassCard> */}
 
       {/* SPM Card */}
-
+      {/* 
       <GlassCard
         className="
           absolute
@@ -138,11 +138,11 @@ const HeroImage = () => {
             Turnkey Integration
           </div>
         </div>
-      </GlassCard>
+      </GlassCard> */}
 
       {/* Bottom Badge */}
 
-      <div
+      {/* <div
         className="
           absolute
 
@@ -177,7 +177,7 @@ const HeroImage = () => {
         <span className="font-medium text-white">
           Smart Industrial Automation Solutions
         </span>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -8,17 +8,17 @@ import {
   export const projectStats = [
     {
       icon: FaProjectDiagram,
-      number: "250+",
+      number: "12+",
       title: "Projects Delivered",
     },
     {
       icon: FaBuilding,
-      number: "35+",
+      number: "15+",
       title: "Industrial Clients",
     },
     {
       icon: FaUsers,
-      number: "12+",
+      number: "3+",
       title: "Years Experience",
     },
     {

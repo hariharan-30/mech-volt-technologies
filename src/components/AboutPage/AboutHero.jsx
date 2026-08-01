@@ -1,56 +1,161 @@
 import { Link } from "react-router-dom";
-import banner from "../../assets/images/about-banner.webp";
+import {
+  FaArrowRight,
+  FaCheckCircle,
+  FaIndustry,
+  FaRobot,
+  FaMicrochip,
+  FaCogs,
+} from "react-icons/fa";
+
+import aboutHero from "../../assets/images/about-banner.webp";
+
+// const highlights = [
+//   "Industrial Automation",
+//   "PLC • HMI • SCADA",
+//   "Robotics Integration",
+//   "SPM Machine Design",
+// ];
 
 const AboutHero = () => {
   return (
-    <section
-      className="relative min-h-[70vh] flex items-center bg-cover bg-center pt-32 sm:pt-36 lg:pt-40 pb-16 overflow-hidden"
-      style={{
-        backgroundImage: `url(${banner})`,
-      }}
-    >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-linear-to-r from-[#081C33]/90 via-[#0A2747]/80 to-[#0D3A68]/70"></div>
+    <section className="relative overflow-hidden bg-linear-to-br from-slate-50 via-white to-blue-50 pt-36 pb-24">
+      {/* Background Decoration */}
 
-      {/* Decorative Blur */}
-      <div className="absolute top-20 right-10 h-64 w-64 rounded-full bg-orange-500/10 blur-3xl"></div>
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-28 -left-28 h-72 w-72 rounded-full bg-[#2A6F97]/10 blur-3xl"></div>
 
-      {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 w-full">
-        <div className="max-w-4xl text-center mx-auto">
-          {/* Label */}
+        <div className="absolute top-20 right-0 h-96 w-96 rounded-full bg-orange-500/10 blur-3xl"></div>
 
-          <span className="inline-block uppercase tracking-[5px] text-orange-400 font-semibold text-sm">
-            About Mech Volt Technologies
-          </span>
+        <div className="absolute bottom-0 left-1/3 h-80 w-80 rounded-full bg-[#12344D]/5 blur-3xl"></div>
+      </div>
 
-          {/* Heading */}
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+        {/* Breadcrumb */}
 
-          <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Engineering Innovation
-            <br />
-            Driving Industrial Excellence
-          </h1>
+        <div className="flex items-center gap-3 text-sm text-slate-500">
+          <Link to="/" className="hover:text-[#12344D] transition">
+            Home
+          </Link>
 
-          {/* Description */}
+          <span>/</span>
 
-          <p className="mt-8 text-base sm:text-lg lg:text-xl leading-8 text-slate-200 max-w-3xl mx-auto">
-            We deliver cutting-edge industrial automation, PLC programming, SPM
-            machine design, electrical control panel solutions and smart
-            manufacturing systems that improve productivity, efficiency and
-            operational reliability across industries.
-          </p>
+          <span className="font-medium text-orange-500">About Us</span>
+        </div>
 
-          {/* Breadcrumb */}
+        <div className="grid lg:grid-cols-2 gap-20 items-center mt-12">
+          {/* LEFT */}
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-3 text-sm sm:text-base text-white">
-            <Link to="/" className="transition hover:text-orange-400">
-              Home
-            </Link>
+          <div>
+            {/* Subtitle */}
 
-            <span className="text-slate-400">/</span>
+            <div className="inline-flex items-center gap-3 rounded-full border border-orange-200 bg-orange-50 px-5 py-2">
+              <div className="h-2.5 w-2.5 rounded-full bg-orange-500"></div>
 
-            <span className="text-orange-400 font-medium">About Us</span>
+              <span className="uppercase tracking-[4px] text-xs font-bold text-orange-600">
+                ABOUT MECH VOLT TECHNOLOGIES
+              </span>
+            </div>
+
+            {/* Heading */}
+
+            <h1 className="mt-8 text-4xl sm:text-5xl xl:text-6xl font-extrabold leading-tight text-[#12344D]">
+              Building Smarter
+              <span className="block text-[#2A6F97]">Industries Through</span>
+              Engineering Excellence
+            </h1>
+
+            {/* Description */}
+
+            <p className="mt-8 text-lg leading-9 text-slate-600 max-w-2xl">
+              Mech Volt Technologies delivers innovative SPM Machine Design, PLC
+              Programming, Robotics Integration, Industrial Automation and
+              Electrical Engineering Solutions that improve productivity,
+              reliability and manufacturing efficiency.
+            </p>
+
+            {/* Highlights */}
+
+            {/* <div className="grid sm:grid-cols-2 gap-5 mt-10">
+              {highlights.map((item) => (
+                <div key={item} className="flex items-center gap-3">
+                  <FaCheckCircle className="text-cyan-500 text-lg shrink-0" />
+
+                  <span className="font-medium text-slate-700">{item}</span>
+                </div>
+              ))}
+            </div> */}
+
+            {/* Buttons */}
+
+            <div className="mt-12 flex flex-wrap gap-5">
+              <Link
+                to="/services"
+                className="inline-flex items-center gap-3 rounded-xl bg-[#12344D] px-8 py-4 font-semibold text-white transition hover:bg-[#2A6F97]"
+              >
+                Explore Services
+                <FaArrowRight />
+              </Link>
+
+              <Link
+                to="/contact"
+                className="inline-flex items-center rounded-xl border-2 border-[#12344D] px-8 py-4 font-semibold text-[#12344D] transition hover:bg-[#12344D] hover:text-white"
+              >
+                Contact Us
+              </Link>
+            </div>
+
+            {/* Bottom Info */}
+
+            {/* <div className="mt-16 grid grid-cols-3 gap-6">
+              <div className="flex items-center gap-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#12344D] text-white">
+                  <FaIndustry className="text-2xl" />
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-[#12344D]">Automation</h4>
+
+                  <p className="text-sm text-slate-500">Industrial Solutions</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500 text-white">
+                  <FaRobot className="text-2xl" />
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-[#12344D]">Robotics</h4>
+
+                  <p className="text-sm text-slate-500">Smart Integration</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#2A6F97] text-white">
+                  <FaMicrochip className="text-2xl" />
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-[#12344D]">PLC</h4>
+
+                  <p className="text-sm text-slate-500">Advanced Control</p>
+                </div>
+              </div>
+            </div> */}
+          </div>
+
+          {/* RIGHT */}
+
+          <div className="relative">
+            <div className="relative overflow-hidden rounded-[36px] shadow-[0_35px_80px_rgba(0,0,0,0.15)]">
+              <img
+                src={aboutHero}
+                alt="About Mech Volt Technologies"
+                className="h-175 w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

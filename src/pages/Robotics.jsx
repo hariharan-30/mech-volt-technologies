@@ -4,6 +4,7 @@ import RobotApplications from "../components/RoboticsPage/RobotApplications";
 import RobotProgramming from "../components/RoboticsPage/RobotProgramming";
 import RobotProcess from "../components/RoboticsPage/RobotProcess";
 import RobotProjects from "../components/RoboticsPage/RobotProjects";
+import SEO from "../components/SEO/SEO";
 
 const Robotics = () => {
   return (

@@ -10,9 +10,9 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title="Contact | Mech Volt Technologies"
-        description="Contact Mech Volt Technologies for Industrial Automation, PLC Programming and Engineering Services."
-        keywords="Contact Mech Volt, Automation Company Chennai"
+        title="Contact Mech Volt Technologies | Industrial Automation Experts"
+        description="Contact Mech Volt Technologies for Industrial Automation, PLC Programming, Robotics Integration, Control Panel Manufacturing, HMI & SCADA Development and engineering solutions."
+        keywords="Contact Mech Volt Technologies, Industrial Automation Company Chennai, PLC Experts, Robotics Company, Automation Solutions, Engineering Support"
       />
       <Hero />
       {/* <ContactCards /> */}

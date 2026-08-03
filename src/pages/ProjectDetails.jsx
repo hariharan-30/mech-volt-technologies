@@ -24,9 +24,9 @@ const ProjectDetails = () => {
   return (
     <>
       <SEO
-        title={`${project.title} | Mech Volt Technologies`}
-        description={project.overview}
-        keywords={project.technologies.join(", ")}
+        title="Industrial Automation Project | Mech Volt Technologies"
+        description="View detailed industrial automation projects including PLC programming, HMI, SCADA, robotics integration and custom automation solutions."
+        keywords="Industrial Automation Project, PLC Automation Project, Robotics Project, SCADA Project, HMI Project"
       />
       <ProjectHero project={project} />
 

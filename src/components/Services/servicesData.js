@@ -376,63 +376,63 @@ import {
 } from "react-icons/fa";
 
 export const services = [
+  // {
+  //   id: 1,
+  //   slug: "industrial-robotics-programming",
+  //   icon: FaRobot,
+  //   image: roboticsImg,
+  //   category: "Robotics",
+  //   title: "Industrial Robotics Programming Services",
+
+  //   shortDescription:
+  //     "Professional robot programming and integration for industrial automation.",
+
+  //   description:
+  //     "Robot programming, integration and commissioning services for industrial robotic applications.",
+
+  //   overview:
+  //     "We provide complete industrial robotics programming services including robot integration, commissioning, optimization and troubleshooting for manufacturing industries. Our solutions improve productivity, accuracy and process efficiency.",
+
+  //   features: [
+  //     "Robot Programming",
+  //     "Robot Integration",
+  //     "Robot Commissioning",
+  //     "Cycle Time Optimization",
+  //     "Robot Troubleshooting",
+  //     "Technical Support",
+  //   ],
+
+  //   process: [
+  //     "Requirement Analysis",
+  //     "Robot Programming",
+  //     "Simulation",
+  //     "Integration",
+  //     "Testing",
+  //     "Commissioning",
+  //   ],
+
+  //   benefits: [
+  //     "Higher Productivity",
+  //     "Improved Accuracy",
+  //     "Reduced Downtime",
+  //     "Reliable Performance",
+  //     "Better Quality",
+  //     "Lower Operating Cost",
+  //   ],
+
+  //   technologies: [
+  //     "ABB Robots",
+  //     "Fanuc",
+  //     "KUKA",
+  //     "Yaskawa",
+  //     "Universal Robots",
+  //   ],
+
+  //   gallery: [roboticsImg, roboticsImg, roboticsImg],
+  // },
+
   {
     id: 1,
-    slug: "industrial-robotics-programming",
-    icon: FaRobot,
-    image: roboticsImg,
-    category: "Robotics",
-    title: "Industrial Robotics Programming Services",
-
-    shortDescription:
-      "Professional robot programming and integration for industrial automation.",
-
-    description:
-      "Robot programming, integration and commissioning services for industrial robotic applications.",
-
-    overview:
-      "We provide complete industrial robotics programming services including robot integration, commissioning, optimization and troubleshooting for manufacturing industries. Our solutions improve productivity, accuracy and process efficiency.",
-
-    features: [
-      "Robot Programming",
-      "Robot Integration",
-      "Robot Commissioning",
-      "Cycle Time Optimization",
-      "Robot Troubleshooting",
-      "Technical Support",
-    ],
-
-    process: [
-      "Requirement Analysis",
-      "Robot Programming",
-      "Simulation",
-      "Integration",
-      "Testing",
-      "Commissioning",
-    ],
-
-    benefits: [
-      "Higher Productivity",
-      "Improved Accuracy",
-      "Reduced Downtime",
-      "Reliable Performance",
-      "Better Quality",
-      "Lower Operating Cost",
-    ],
-
-    technologies: [
-      "ABB Robots",
-      "Fanuc",
-      "KUKA",
-      "Yaskawa",
-      "Universal Robots",
-    ],
-
-    gallery: [roboticsImg, roboticsImg, roboticsImg],
-  },
-
-  {
-    id: 2,
     slug: "spm-machine-design-industrial-automation",
     icon: FaIndustry,
     image: spmImg,
@@ -487,7 +487,7 @@ export const services = [
   },
 
   {
-    id: 3,
+    id: 2,
     slug: "jigs-and-fixtures",
     icon: FaTools,
     image: jigFixtureImg,
@@ -535,7 +535,7 @@ export const services = [
   },
 
   {
-    id: 4,
+    id: 3,
     slug: "industrial-conveyors",
     icon: FaExchangeAlt,
     image: conveyorImg,
@@ -589,7 +589,7 @@ export const services = [
   },
 
   {
-    id: 5,
+    id: 4,
     slug: "industrial-guns-services",
     icon: FaWrench,
     image: gunsImg,
@@ -636,7 +636,7 @@ export const services = [
   },
 
   {
-    id: 6,
+    id: 5,
     slug: "plc-programming-control-panel",
     icon: FaMicrochip,
     image: plcImg,

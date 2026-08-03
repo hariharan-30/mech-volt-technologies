@@ -12,9 +12,9 @@ const About = () => {
   return (
     <>
       <SEO
-        title="About Us | Mech Volt Technologies"
-        description="Learn about Mech Volt Technologies, our engineering expertise and industrial automation solutions."
-        keywords="About Mech Volt, Industrial Automation Company, Automation Experts"
+        title="About Mech Volt Technologies | Industrial Automation Company"
+        description="Learn about Mech Volt Technologies, a trusted industrial automation company specializing in PLC Programming, HMI, SCADA, Robotics Integration, SPM Machine Design and Control Panel Manufacturing."
+        keywords="Mech Volt Technologies, About Mech Volt, Industrial Automation Company, PLC Programming, HMI, SCADA, Robotics Integration, SPM Machine Design, Control Panel Manufacturing"
       />
       <AboutHero />
       <CompanyOverview />

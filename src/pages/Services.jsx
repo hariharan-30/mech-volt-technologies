@@ -17,8 +17,8 @@ const Services = () => {
     <>
       <SEO
         title="Industrial Automation Services | Mech Volt Technologies"
-        description="Industrial Automation, PLC Programming, SCADA, HMI, SPM Machine Design, Turnkey Projects and Control Panel Manufacturing."
-        keywords="PLC Programming, SCADA, HMI, SPM Machine, Industrial Automation Services"
+        description="Explore our Industrial Automation Services including PLC Programming, HMI & SCADA Development, Robotics Integration, Control Panel Manufacturing, Electrical Engineering and SPM Machine Design."
+        keywords="Industrial Automation Services, PLC Programming Services, HMI Development, SCADA Solutions, Robotics Integration, Control Panel Manufacturing, Electrical Engineering, SPM Machine Design"
       />
       <ServicesHero />
       {/* <Capabilities /> */}

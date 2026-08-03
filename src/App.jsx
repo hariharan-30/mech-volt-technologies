@@ -9,6 +9,7 @@ import ScrollProgress from "./components/Common/ScrollProgress";
 import ScrollToTop from "./components/Common/ScrollToTop";
 
 import { Toaster } from "react-hot-toast";
+import StructuredData from "./components/SEO/StructuredData";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -26,6 +27,28 @@ const App = () => {
   }
 
   return (
+    // <>
+    //   <Toaster
+    //     position="top-right"
+    //     reverseOrder={false}
+    //     toastOptions={{
+    //       duration: 3000,
+    //       style: {
+    //         borderRadius: "12px",
+    //         background: "#fff",
+    //         color: "#1e293b",
+    //       },
+    //     }}
+    //   />
+    //   <ScrollToTop />
+    //   <ScrollProgress />
+
+    //   <FloatingButtons />
+    //   <Navbar />
+    //   <StructuredData />
+    //   <AppRoutes />
+    //   <Footer />
+    // </>
     <>
       <Toaster
         position="top-right"
@@ -39,12 +62,19 @@ const App = () => {
           },
         }}
       />
+
+      <StructuredData />
+
       <ScrollToTop />
+
       <ScrollProgress />
 
       <FloatingButtons />
+
       <Navbar />
+
       <AppRoutes />
+
       <Footer />
     </>
   );

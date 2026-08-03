@@ -8,6 +8,11 @@ import RobotProjects from "../components/RoboticsPage/RobotProjects";
 const Robotics = () => {
   return (
     <>
+      <SEO
+        title="Robotics Automation Solutions | Mech Volt Technologies"
+        description="Discover our robotics automation solutions including robotic integration, industrial robots, automation systems, PLC communication and smart manufacturing technologies."
+        keywords="Industrial Robotics, Robotics Integration, Robotic Automation, Smart Manufacturing, Industrial Robots, PLC Robotics, Factory Automation, Mech Volt Robotics"
+      />
       <RoboticsHero />
 
       <RobotBrands />
@@ -19,10 +24,8 @@ const Robotics = () => {
       <RobotProcess />
 
       {/* <RobotProjects /> */}
-
     </>
   );
 };
 
 export default Robotics;
-

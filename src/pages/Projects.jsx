@@ -12,9 +12,9 @@ const Projects = () => {
   return (
     <>
       <SEO
-        title="Projects | Mech Volt Technologies"
-        description="Explore industrial automation, PLC, SCADA and turnkey engineering projects completed by Mech Volt Technologies."
-        keywords="Automation Projects, PLC Projects, SPM Projects"
+        title="Automation Projects | Mech Volt Technologies"
+        description="Explore our successful industrial automation projects including PLC automation, HMI & SCADA systems, robotics integration, SPM machines and control panel solutions."
+        keywords="Automation Projects, PLC Projects, SCADA Projects, HMI Projects, Robotics Projects, Industrial Automation Case Studies, SPM Machine Projects"
       />
       <Hero />
       {/* <Stats /> */}

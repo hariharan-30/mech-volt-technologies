@@ -1,0 +1,20 @@
+{
+  "name": "Mech Volt Technologies",
+  "short_name": "Mech Volt",
+  "description": "Industrial Automation, PLC Programming, HMI, SCADA, Robotics Integration, SPM Machine Design and Control Panel Manufacturing.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#12344D",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/Engineering.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

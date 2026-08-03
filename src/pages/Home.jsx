@@ -19,8 +19,8 @@ const Home = () => {
     <>
       <SEO
         title="Mech Volt Technologies | Industrial Automation Company"
-        description="Mech Volt Technologies provides Industrial Automation, PLC Programming, SCADA, HMI, SPM Machine Design and Control Panel Manufacturing."
-        keywords="Industrial Automation, PLC Programming, SCADA, HMI, SPM Machine, Control Panel, Automation Company Chennai"
+        description="Mech Volt Technologies provides Industrial Automation, PLC Programming, HMI, SCADA, Robotics Integration, SPM Machine Design and Control Panel Manufacturing for modern industries."
+        keywords="Mech Volt Technologies, Industrial Automation, PLC Programming, HMI, SCADA, Robotics Integration, SPM Machine Design, Control Panel Manufacturing, Industrial Engineering"
       />
       <Hero />
       {/* <Clients /> */}

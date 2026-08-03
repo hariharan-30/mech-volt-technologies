@@ -23,9 +23,9 @@ const ServiceDetails = () => {
   return (
     <>
       <SEO
-        title={`${service.title} | Mech Volt Technologies`}
-        description={service.description}
-        keywords={service.technologies.join(", ")}
+        title="Industrial Automation Solutions | Mech Volt Technologies"
+        description="Complete industrial automation solutions including PLC Programming, HMI, SCADA, Electrical Control Panels and smart manufacturing systems."
+        keywords="Industrial Automation, PLC Programming, HMI, SCADA, Control Panels, Factory Automation"
       />
       <ServiceHero service={service} />
 

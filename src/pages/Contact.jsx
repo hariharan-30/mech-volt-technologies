@@ -17,7 +17,7 @@ const Contact = () => {
       <Hero />
       {/* <ContactCards /> */}
       <ContactSection />
-      <GoogleMap />
+      {/* <GoogleMap /> */}
       {/* <FAQ /> */}
       {/* <CTA /> */}
     </>

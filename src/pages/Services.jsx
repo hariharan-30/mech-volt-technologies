@@ -27,7 +27,7 @@ const Services = () => {
       <SPMService />
       {/* <ControlPanel /> */}
       {/* <Industries /> */}
-      {/* <WorkProcess /> */}
+      <WorkProcess />
       {/* <FAQ /> */}
       {/* <ServiceCTA /> */}
       {/* <Contact /> */}
